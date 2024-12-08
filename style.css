@@ -1,0 +1,116 @@
+/* Resetando margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo do site */
+body {
+  font-family: Bahnschrift, SemiBold;
+  background-color: #f0f0f0;
+  color: #464646;
+  line-height: 1.6;
+  font-size: 25px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Estilos do menu */
+nav {
+  background-color: #333;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Conteúdo da página */
+section {
+  font-size: 30px;
+  margin-top: 60px; /* Espaço para o menu fixo */
+  padding: 20px;
+}
+
+/* Formatação da seção "Sobre Mim" */
+#sobre-mim {
+  background-color: rgb(223, 223, 223);
+  text-align: left;
+  margin: 20px;
+}
+
+/* Formatação da seção "Formação" */
+#formacao li {
+  text-align: right;
+  margin: 20px;
+  text-decoration: none;
+}
+
+/* Formatação da seção "Portfólio" */
+#portfolio {
+  text-align: left;
+  margin: 20px;
+  text-decoration: none;
+}
+
+/* Estilo dos Links */
+a {
+  text-decoration: none;
+  color: rgb(192, 0, 0);
+}
+a:hover {
+  color: rgb(151, 0, 0);
+}
+
+/* Estilo para o formulário de contato */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+form input,
+form textarea {
+  font-size: 15px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #555;
+}
